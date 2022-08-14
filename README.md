@@ -120,6 +120,6 @@ Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-templa
 
 [Back to top :top:](#a-react-portfolio-template-for-github)
 
-## License
+## Licensing
 
 [MIT](https://choosealicense.com/licenses/mit/)
