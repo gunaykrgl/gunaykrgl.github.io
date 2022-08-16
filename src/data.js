@@ -1,15 +1,22 @@
 // Skills icons - https://react-icons.github.io/react-icons/
 import {
-  FaHtml5,
-  FaCss3Alt,
-  FaBootstrap,
-  FaReact,
-  FaGitAlt,
-  FaGithubSquare,
-  FaLink,
+	FaPython,
+	FaLinux,
+	FaGithub,
+	FaGitAlt,
+	FaLink
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import {
+	SiNumpy,
+	SiPandas,
+	SiTensorflow,
+	SiJavascript,
 
+} from "react-icons/si";
+
+import {
+	TbLetterC
+} from "react-icons/tb"
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
 
@@ -43,38 +50,38 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
+    skill: <FaPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
+    skill: <SiNumpy className="display-4" />,
+    name: "Numpy",
   },
   {
     id: 3,
+    skill: <SiPandas className="display-4" />,
+    name: "Pandas",
+  },
+  {
+    id: 4,
+    skill: <SiTensorflow className="display-4" />,
+    name: "Tensorflow",
+  },
+  {
+    id: 5,
     skill: <SiJavascript className="display-4" />,
     name: "JavaScript",
   },
   {
-    id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
-  },
-  {
-    id: 5,
-    skill: <FaReact className="display-4" />,
-    name: "React",
-  },
-  {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <TbLetterC className="display-4" />,
+    name: "C/C++",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <FaLinux className="display-4" />,
+    name: "Linux",
   },
   {
     id: 8,
@@ -83,7 +90,7 @@ export const skillData = [
   },
   {
     id: 9,
-    skill: <FaGithubSquare className="display-4" />,
+    skill: <FaGithub className="display-4" />,
     name: "GitHub",
   },
 ];
@@ -110,4 +117,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xaykydwq";
