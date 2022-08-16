@@ -33,7 +33,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "gunayyy21";
+export const githubUsername = "gunaykrgl";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
